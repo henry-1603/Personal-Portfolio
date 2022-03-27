@@ -1,0 +1,149 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins' , sans-serif;
+}
+
+.navbar {
+  top: 0px;
+  background: #FCA311;
+  display: flex;
+  max-height: 70px;
+  justify-content: right;
+  position: sticky;
+  z-index: 2;
+}
+
+
+.nav-link{
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  padding: 10px 20px;
+  /* background-color: red; */
+  text-decoration: none;
+}
+
+
+.nav-link:hover{
+  /* border: white solid 2px;
+  border-radius: 10px;
+  background-color: red; */
+  position: relative;
+  bottom: 10px;
+}
+
+.welcome-section{
+ color: white;
+ background-color: black;
+ font-weight: 300;
+ min-height: 100vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ font-size: 25px;
+ /* word-spacing: 8px; */
+}
+
+h1{
+  font-size: 55px;
+  letter-spacing: 1px;
+  font-weight: lighter;
+}
+
+.subtitle{
+font-size: 17px;
+color: #FCA311;
+
+font-weight: bold;
+letter-spacing: 2px;
+}
+
+
+.project-title{
+  color: white;
+  font-weight: 900;
+}
+
+
+.projects{
+  background-color: #142130;
+  padding: 75px;
+  text-align: center;
+}
+
+
+.project-grid{
+  display: flex;
+  margin-top: 20px;
+
+}
+
+img{
+  width: 100%;
+  height: 100%;
+  max-width: 500px;
+  max-height: 500px;
+  margin: auto;
+  border-left: 12px solid #142130;
+}
+
+img:hover{
+  position: relative;
+  bottom: 12px;
+  
+}
+
+.project-link{
+  color: white;
+  background-color: black;
+  font-size: 23px;
+  text-decoration: none;
+  display: block; 
+  height: 80px;
+  line-height: 80px;
+  margin: auto;
+  padding: 20px;
+  border-left: 12px solid #142130;
+
+}
+
+.contact{
+  text-align: center;
+  color: #FCA311;
+  background-color: #142130;
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 25px;
+}
+
+.title{
+  font-weight: 800;
+}
+
+table{
+display: flex;
+justify-content: center;
+color: white;
+ font-weight: 600; 
+  
+}
+
+.btn{
+  background-color: #FCA311;
+  color: aliceblue;
+  padding: 15px;
+  border: #FCA311 3px solid;
+  border-radius: 10px;
+color: black;
+font-weight: bold;
+}
+
+.left-align{
+  text-align: left;
+
+}
